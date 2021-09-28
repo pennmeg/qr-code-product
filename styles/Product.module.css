@@ -1,0 +1,43 @@
+.product {
+  background-color: lightgray;
+  width: 100vw;
+  height: 100vh;
+}
+
+.imageBackground {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.productDetails {
+  opacity: 0.95;
+  background-color: lightgray;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 90%;
+  padding: 18px;
+}
+
+.productName {
+  display: flex;
+  flex-direction: column;
+  color: #2a2739;
+  font-family: serif;
+}
+
+.tag {
+  border: solid 1px #2a2739;
+  background-color: #696774;
+  color: white;
+  border-radius: 2px;
+  padding: 5px;
+  margin: 2px;
+}
+
+.tag p {
+  margin: 0;
+  text-transform: capitalize;
+  font-size: 12px;
+}
